@@ -39,7 +39,7 @@ int atoi(string str)
     }
     
   //convert string to int
-    stringstream final(val);
-    final>>integer;
+    stringstream res(val);
+    res>>integer;
     return integer;
 }
